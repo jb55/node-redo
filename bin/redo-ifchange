@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+var path = require('path');
+var mkdir = require('mkdirp');
+
+var targets = process.argv.slice(2)
+var cwd = process.cwd();
+
+targets.forEach(function(target) {
+})
+
